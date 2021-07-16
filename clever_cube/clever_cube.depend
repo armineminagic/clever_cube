@@ -1,0 +1,152 @@
+# depslib dependency file v1.0
+1626456011 source:c:\users\armin\desktop\clever_cube\clever_cube\main.cpp
+	<windows.h>
+	<commctrl.h>
+	"sqlite3.h"
+	"defaults.h"
+	"playgame.h"
+	"login.h"
+
+1626450438 c:\users\armin\desktop\clever_cube\clever_cube\defaults.h
+
+1626365309 c:\users\armin\desktop\clever_cube\clever_cube\colision.h
+
+1626451418 c:\users\armin\desktop\clever_cube\clever_cube\helpfunctions.h
+	<vector>
+
+1626364801 c:\users\armin\desktop\clever_cube\clever_cube\buttons.h
+
+1626455938 c:\users\armin\desktop\clever_cube\clever_cube\movement.h
+	<windows.h>
+
+1626455900 c:\users\armin\desktop\clever_cube\clever_cube\filemanagment.h
+	<string>
+	<windows.h>
+
+1626337105 c:\users\armin\desktop\clever_cube\clever_cube\sqlite3.h
+	<stdarg.h>
+
+1626451348 c:\users\armin\desktop\clever_cube\clever_cube\playgame.h
+	<string>
+
+1626451381 c:\users\armin\desktop\clever_cube\clever_cube\login.h
+	"sqlite3.h"
+
+1626365098 source:c:\users\armin\desktop\clever_cube\clever_cube\sqlite3.c
+	"config.h"
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	<ctype.h>
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<math.h>
+
+1626446105 source:c:\users\armin\desktop\clever_cube\clever_cube\buttons.cpp
+	"windows.h"
+
+1626451338 source:c:\users\armin\desktop\clever_cube\clever_cube\helpfunctions.cpp
+	<string>
+	<time.h>
+	<vector>
+	<windows.h>
+
+1626446247 source:c:\users\armin\desktop\clever_cube\clever_cube\collisions.cpp
+	<windows.h>
+	"defaults.h"
+
+1626451580 source:c:\users\armin\desktop\clever_cube\clever_cube\filemanagment.cpp
+	<string>
+	<windows.h>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<direct.h>
+	<dirent.h>
+	"filemanagment.h"
+	"defaults.h"
+	"helpfunctions.h"
+	"movement.h"
+	"colision.h"
+
+1626451305 source:c:\users\armin\desktop\clever_cube\clever_cube\login.cpp
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<string>
+	<commctrl.h>
+	"defaults.h"
+	"sqlite3.h"
+	"login.h"
+	"buttons.h"
+
+1626451370 source:c:\users\armin\desktop\clever_cube\clever_cube\movement.cpp
+	<windows.h>
+	<algorithm>
+	<cmath>
+	"defaults.h"
+	"colision.h"
+
+1626456119 source:c:\users\armin\desktop\clever_cube\clever_cube\playgame.cpp
+	<windows.h>
+	<iostream>
+	<string>
+	<fstream>
+	<filesystem>
+	<unistd.h>
+	"defaults.h"
+	"helpfunctions.h"
+	"filemanagment.h"
+	"movement.h"
+	"colision.h"
+	"buttons.h"
+
