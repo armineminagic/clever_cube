@@ -2,16 +2,12 @@
 #define FILEMANAGEMENT_H
 
 #include <string>
-#include <windows.h>
 
-using std::string;
-
-void getLevelInfo(const string&, string&, double&, double&, double&, double&, double&, double&, double&);
 void getSavedGame(int&, int&);
 BOOL saveGame(HWND, int, int);
 BOOL fileExists(LPCSTR);
-void makeBarriers(RECT*, double[][100], int, int*, RECT);
-void getLevelInfo(const string&, string &, double&, double&, double&, double&, double&, double&, double&);
+void getInfo(const std::string&, std::string &, double&, double&, double&, double&, double&, double&, double&);
+void getInfo(const std::string&, int&, int&);
 void CleanFiles(int onlyProgress = 0);
 
 #endif

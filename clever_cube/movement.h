@@ -10,4 +10,5 @@ int moveBounceOnWalls(RECT&, RECT, int, int, RECT*, double[][100], int reset = 0
 void followThePlayer(RECT&, RECT, RECT, int);
 
 void movePlayer(RECT&, RECT, int, int&);
+
 #endif

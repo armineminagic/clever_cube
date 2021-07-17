@@ -2,13 +2,9 @@
 #define HELPERFUNCTIONS_H
 
 #include <vector>
-
-using std::string;
-using std::vector;
+#include <string>
 
 int GetRandomNumber(int, int);
-void createCustomEllipse(HDC, RECT);
-vector <string> splitString(const string&, const char&);
-void makeGate(int, RECT&, RECT, int*);
+std::vector <std::string> splitString(const std::string&, const char&);
 
 #endif

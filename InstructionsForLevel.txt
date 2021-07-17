@@ -1,0 +1,14 @@
+Move type 1 - for fixed position
+	  2 - for one direction
+	  3 - for random directions
+Step - Number of steps which object use while moving
+
+Wall should be stationary object so you can create it like this:
+
+	Wall(left RECT coordinate, top RECT c., right RECT c., bottom RECT c., move_type must be 1)
+	
+	Rectangle(left RECT coordinate, top RECT c., right RECT c., bottom RECT c., move_type, step)
+
+	Ellipse(left RECT coordinate, top RECT c., right RECT c., bottom RECT c., move_type, step)
+
+	Ellipse || Rectangle(left RECT coordinate, top RECT c., right RECT c., bottom RECT c., move_type | moving radius, step)

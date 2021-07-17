@@ -37,6 +37,8 @@
 			<Add library="kernel32" />
 			<Add library="comctl32" />
 		</Linker>
+		<Unit filename="barriers.cpp" />
+		<Unit filename="barriers.h" />
 		<Unit filename="buttons.cpp" />
 		<Unit filename="buttons.h" />
 		<Unit filename="colision.h" />

@@ -1,8 +1,8 @@
 #ifndef BUTTONS_H
 #define BUTTONS_H
 
-void DestroyButtons(HWND[]);
+void DestroyButtons(std::vector<HWND>&);
 
-#endif // BUTTONS_H
+#endif
 
 
